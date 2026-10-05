@@ -1,23 +1,53 @@
-p{
-  display:flex;
-}
-
 :root{
-  --fondo:rgba(18, 18, 18, 1);
+  --fondo:rgba(30, 30, 30, 1);
   --tarjetas:rgba(30, 30, 30, 1);
   --textoprinc:rgba(224, 224, 224, 1);
   --botones:rgba(59, 130, 246, 1);
 }
 
+@font-face{
+  src: url(/fonts/InstrumentSans-VariableFont_wdth,wght.ttf);
+  font-family:Instrument-Sans;
+}
+
+h1{
+  font-family: Instrument-Sans;
+  font-size:67px;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+h2{
+  font-family: Instrument-Sans;
+  font-size: 2em;
+  font-weight: bolder;
+  font-style: normal;
+}
+h3{
+  font-family: Instrument-Sans;
+  margin:31px;
+  font-size: 1.67em;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+p{
+  font-family: Instrument-Sans;
+  margin:37px;
+  font-size: 19.66px;
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
-  margin:0px;
-  background-color:rgba(18, 18, 18, 1);
+  margin:21px;
+  background-color:rgba(30, 30, 30, 1);
   display:flex;
   flex-direction:column;
 }
 
 .nombre{
-  margin-bottom:20px;
+  margin-bottom:0px;
   background-color:rgba(30, 30, 30, 1);
   color: aliceblue;
 }
@@ -34,6 +64,8 @@ body{
 }
 
 .gustos img{
+  border: 2px solid;
+  margin:31px;
   width:150px;
   height:150px;
 }
